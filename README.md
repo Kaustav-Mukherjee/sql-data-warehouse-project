@@ -93,4 +93,3 @@ data-warehouse-project/
 ```
 ---
 
-ct with proper attribution.
