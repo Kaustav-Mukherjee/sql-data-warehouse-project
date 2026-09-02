@@ -9,6 +9,17 @@ Script Purpose:
 ===============================================================================
 */
 
+/*
+===============================================================================
+Checking wether a table already exists or not
+IF OBJECT_ID ('table_name' , 'U') IS NOT NULL
+	DROP TABLE table_name
+'U' - means user defined table 
+
+You can add this check before creating any table.
+===============================================================================
+*/
+
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
 GO
